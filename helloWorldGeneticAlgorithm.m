@@ -14,7 +14,7 @@ target  = 'Hello, world';
 % *Can Be Any String With Any Values and Any Length!*
 
 %% Parameters                    
-popSize = 100;                                 % Population Size
+popSize = 1000;                                 % Population Size
 genome  = length(target);                       % Genome Size
 mutRate = .01;                                  % Mutation Rate
 S       = 4;                                    % Tournament Size
