@@ -14,7 +14,11 @@ target  = 'Hello, world!';
 
 
 %% Parameters                    
+<<<<<<< HEAD
 popSize = 1000;                                 % Population Size (100-10000 generally produce good results)
+=======
+popSize = 1000;                                 % Population Size
+>>>>>>> origin/master
 genome  = length(target);                       % Genome Size
 mutRate = .01;                                  % Mutation Rate (5%-25% produce good results)
 S       = 4;                                    % Tournament Size (2-6 produce good results)
@@ -109,4 +113,8 @@ for Gen = 1:1e6                                 % A Very Large Number Was Chosen
    
 end
 
+<<<<<<< HEAD
 toc % Ends timer and prints elapsed time
+=======
+toc
+>>>>>>> origin/master
